@@ -1,2 +1,2 @@
 compile:
-  pdftex hello.tex
+    pdflatex hello.tex
