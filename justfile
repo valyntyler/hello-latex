@@ -1,5 +1,6 @@
 compile:
-    pdflatex hello.tex
+    #!/usr/bin/env nu
+    glob *.tex | get 0 | pdflatex $in
 
 clean:
     #!/usr/bin/env nu
