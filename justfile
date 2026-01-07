@@ -1,0 +1,2 @@
+compile:
+  pdftex hello.tex
